@@ -5,9 +5,9 @@ metadata:
   name: my-vm
 spec:
   forProvider:
-    ami: ami-052efd3df9dad4825
+    ami: ami-0d3a2960fcac852bc
     region: eu-north-1
-    instanceType: t2.nano
+    instanceType: t3.nano
     subnetIdRef:
       name: my-vm
     tags:
